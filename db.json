@@ -1,0 +1,173 @@
+{
+  "user": [
+    {
+      "fullName": "Tran Van A",
+      "email": "atran@gmail.com",
+      "Gender": "Male",
+      "Age": "23",
+      "position": "hotipi",
+      "Status": "active",
+      "id": 13
+    },
+    {
+      "fullName": "Nguyễn Thủy Tiên",
+      "email": "tien@gmail.com",
+      "Gender": "Male",
+      "Age": "20",
+      "position": "QA",
+      "Status": "active",
+      "id": 15
+    },
+    {
+      "fullName": "Trần Văn Tuyên",
+      "email": "trantuyen082001@gmail.com",
+      "Gender": "Male",
+      "Age": "20",
+      "position": "Intern",
+      "Status": "Active",
+      "id": 16
+    }
+  ],
+  "newUser": [
+    {
+      "id": "1",
+      "fullName": "Nguyễn Tấn Hạnh",
+      "email": "hanhnguyen@gmail.com",
+      "gender": "Male",
+      "Age": "23",
+      "level": "University",
+      "status": "Failed"
+    },
+    {
+      "fullName": "Nguyễn Đức Phúc",
+      "email": "phuc@gmail.com",
+      "gender": "Male",
+      "Age": "40",
+      "level": "3 exp",
+      "status": "Accepted",
+      "id": "w4mXrdM"
+    },
+    {
+      "fullName": "Trần Ngọc Hải",
+      "email": "hai@gmail.com",
+      "gender": "Male",
+      "Age": "30",
+      "level": "20",
+      "status": "actie",
+      "id": "3z-apSN"
+    },
+    {
+      "fullName": "Huỳnh Quý Đức",
+      "email": "duc@gmail.com",
+      "gender": "Female",
+      "Age": "20",
+      "level": "leaci",
+      "status": "active",
+      "id": "fYL1GmO"
+    }
+  ],
+  "salarys": [
+    {
+      "id": "HR_E3",
+      "fullName": "Nguyễn Bảo Duy",
+      "email": "duynguyen@gmail.com",
+      "age": "24",
+      "gender": "Male",
+      "coSalary": "2.0",
+      "salary": "10.000.000",
+      "dayMonthYear": "12-1-2020",
+      "Monday": "10000h",
+      "Tuesday": "2h",
+      "Wednesday": "2h",
+      "Thursday": "2h",
+      "Friday": "2h",
+      "Saturday": "2h",
+      "Sunday": "2h"
+    },
+    {
+      "id": "HR_E4",
+      "fullName": "Nguyễn Bảo Dung",
+      "email": "duynguyen@gmail.com",
+      "age": "24",
+      "gender": "Male",
+      "coSalary": "2.0",
+      "salary": "10.000.000",
+      "dayMonthYear": "01-10-2021",
+      "Monday": "2h",
+      "Tuesday": "2h",
+      "Wednesday": "2h",
+      "Thursday": "2h",
+      "Friday": "2h",
+      "Saturday": "2h",
+      "Sunday": "2h"
+    },
+    {
+      "id": "HR_E5",
+      "fullName": "Nguyễn Bảo Duy",
+      "email": "duynguyen@gmail.com",
+      "age": "24",
+      "gender": "Male",
+      "coSalary": "2.0",
+      "salary": "10.000.000",
+      "dayMonthYear": "01-10-2021",
+      "Monday": "2h",
+      "Tuesday": "2h",
+      "Wednesday": "2h",
+      "Thursday": "2h",
+      "Friday": "2h",
+      "Saturday": "2h",
+      "Sunday": "2h"
+    },
+    {
+      "id": "HR_E7",
+      "fullName": "Trần Văn Tuyên",
+      "email": "tuyen@gmail.com",
+      "age": "24",
+      "gender": "Male",
+      "coSalary": "3.0",
+      "salary": "20000000",
+      "dayMonthYear": "01-10-2021",
+      "Monday": "2h",
+      "Tuesday": "2h",
+      "Wednesday": "2h",
+      "Thursday": "2h",
+      "Friday": "2h",
+      "Saturday": "2h",
+      "Sunday": "2h"
+    },
+    {
+      "id": "HR_E10",
+      "fullName": "Huỳnh Văn Phúc",
+      "email": "phuchuynh@gmail.com",
+      "age": "26",
+      "gender": "Male",
+      "coSalary": "3.0",
+      "salary": "20.000000",
+      "dayMonthYear": "18-8-2000",
+      "Monday": "4h",
+      "Tuesday": "5h",
+      "Wednesday": "3h",
+      "Thursday": "9h",
+      "Friday": "4h",
+      "Saturday": "5h",
+      "Sunday": "0h"
+    },
+    {
+      "id": "HR_E11",
+      "fullName": "Huỳnh Phúc Văn",
+      "email": "van@gmail.com",
+      "age": "26",
+      "gender": "Male",
+      "coSalary": "3.0",
+      "salary": "20.000000",
+      "dayMonthYear": "3-10-2000",
+      "Monday": "7h",
+      "Tuesday": "8h",
+      "Wednesday": "2h",
+      "Thursday": "4h",
+      "Friday": "8h",
+      "Saturday": "2h",
+      "Sunday": "0h"
+    }
+  ]
+}

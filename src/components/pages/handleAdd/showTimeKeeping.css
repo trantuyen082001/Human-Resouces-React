@@ -1,0 +1,9 @@
+.showTimeKeeping {
+    margin-top: 10px;
+    flex: 4;
+}
+
+.title {
+    width: 20%;
+    margin:0 0 10px 10px ;
+}
