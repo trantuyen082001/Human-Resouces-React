@@ -30,15 +30,6 @@
   ],
   "newUser": [
     {
-      "id": "1",
-      "fullName": "Nguyễn Tấn Hạnh",
-      "email": "hanhnguyen@gmail.com",
-      "gender": "Male",
-      "Age": "23",
-      "level": "University",
-      "status": "Failed"
-    },
-    {
       "fullName": "Nguyễn Đức Phúc",
       "email": "phuc@gmail.com",
       "gender": "Male",
