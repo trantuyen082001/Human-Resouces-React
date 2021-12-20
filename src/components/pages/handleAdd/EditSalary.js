@@ -1,6 +1,7 @@
 import "./editSalary.css"
 import React, {useState, useEffect} from "react";
 import TextField from '@mui/material/TextField';
+import validator from "validator";
 import { makeStyles } from '@mui/styles';
 import { Button } from "@mui/material";
 import {useHistory, useParams} from 'react-router-dom';
@@ -59,9 +60,13 @@ export default function EditSalary() {
         if(!id || !fullName || !email || !gender || !age || !coSalary || !salary) {
             setError("Please fill out all forms");
         } else {
-            dispatch(updateUser(state,id));
-            history.push("/salary");
-            setError("");
+            if(validator.isEmail(email)) {
+                dispatch(updateUser(state,id));
+                history.push("/salary");
+                setError("");
+            } else{
+                setError("Enter valid email");
+            }
         }
     };
 

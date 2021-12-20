@@ -1,6 +1,7 @@
 import "./addUser.css"
 import React, {useState, useEffect} from "react";
 import TextField from '@mui/material/TextField';
+import validator from "validator";
 import { makeStyles } from '@mui/styles';
 import { Button } from "@mui/material";
 import {useHistory, useParams} from 'react-router-dom';
@@ -60,9 +61,13 @@ export default function EditUser() {
         if(!fullName || !email || !Gender || !Age || !position || !Status) {
             setError("Please fill out forms");
         } else {
-            dispatch(updateUser(state,id));
-            history.push("/documents");
-            setError("");
+            if(validator.isEmail(email)) {
+                dispatch(updateUser(state,id));
+                history.push("/documents");
+                setError("");
+            } else {
+                setError("Enter valid email");
+            }
         }
     };
 
